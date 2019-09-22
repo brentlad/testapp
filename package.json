@@ -1,9 +1,14 @@
 {
-  "name" : "myapp",
+  "name" : "skill store",
   "version" : "0.1.0",
-  "main" : "myapp.js",
+  "dependencies":
+  {
+  	"express":"^4.17.1",
+  	"ejs":"^2.7.1"
+  },
+  "main" : "index.js",
   "scripts" : {
-    "start" : "node myapp.js"
+    "start" : "node index.js"
   },
   "engines" : {
     "node" : "^10"
