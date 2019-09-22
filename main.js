@@ -6,6 +6,7 @@ app.use(function(req, res, next)
   if(!req.secure) 
   {
     res.redirect(['https://', req.get('Host'), req.url].join(''));
+    next();
   }
 });
 app.set('view engine','ejs');
