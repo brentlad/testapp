@@ -4,7 +4,7 @@ const http = require('http');
 // Configure our HTTP server to respond with Hello World to all requests.
 const server = http.createServer((request, response) => {
   response.writeHead(200, {"Content-Type": "text/plain"});
-  response.end("Hello World\n");
+  response.end("Work in Progress\n");
 });
 
 // Last, but not least, listen on port 8080
