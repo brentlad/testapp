@@ -2,7 +2,7 @@ const main = require('./node_modules/main.js');
 const app  = main.app;
 app.use(function(request,response,next)
 {
-	console.log(request.protocol);
+	console.log(request.headers['x-forwarded-proto']);
 	next();
 })
 const server = require('./node_modules/server.js');
