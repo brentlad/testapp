@@ -7,7 +7,6 @@ app.use(function(request,response,next)
 	{
 		response.redirect('https://' + request.headers.host + request.url);
 	}
-	next();
 })
 const server = require('./node_modules/server.js');
 const homeRoute = require('./routes/home.js');
