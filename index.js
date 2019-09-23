@@ -3,7 +3,7 @@ const app  = main.app;
 app.use(function(request,response,next)
 {
 	//console.log(request.headers['x-forwarded-proto']);
-	if(request.headers['x-forwarded-proto'] !== "https")
+	if(request.headers['x-forwarded-proto'] === "http")
 	{
 		 response.redirect('https://' + request.headers.host + request.url);
 	}
