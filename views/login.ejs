@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" type="text/css" href="../css/sign.css">
+	<meta name="viewport" content="width=device-width" initial-scale="1.0">
+	<meta charset="utf-8">
+	<meta name="description" content="Show of your startup">
+	<meta name="author" content="WOS">
+	<meta name="keywords" content="startup, company, babbblr, babbbler">
+	<title>Store Store</title>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+	<div class="account_auth">
+		<h1>Sign in to your Account</h1>
+		<form action="/login_verify" method="POST">
+			<span>Email Address</span>
+			<input type="text" name="email">
+			<span>Password</span>
+			<input type="password" name="password">
+			<button>Sign In</button>
+		</form>
+		<span>or</span>
+		<a href="/register">Register new account</a>
+	</div>
+</body>
+</html>

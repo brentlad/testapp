@@ -1,0 +1,76 @@
+.account_auth 
+{
+	width: 300px;
+	height: auto;
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+	padding: 20px;
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d9d9f5;
+	font-size: 15px;
+	color:#715c5c;
+	background-color: white;
+}
+
+.account_auth input
+{
+	width: 100%;
+	height: 37px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	padding: 16px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d9d9f5;
+	background-color: white;
+}
+
+.account_auth form
+{
+	margin-bottom: 20px;
+}
+
+.account_auth form span
+{
+	font-size: 13px;
+	display: block;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+
+.account_auth h1
+{
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.account_auth form button
+{
+	width: 100%;
+	height: 40px;
+	background-color: #b07ac1;
+	color: white;
+	border-style: none;
+	cursor: pointer;
+}
+
+.account_auth button:hover
+{
+	background-color: #dcaeea;
+}
+
+.account_auth a 
+{
+	color: #656590;
+	text-decoration: none;
+}
+
+.account_auth a:hover
+{
+	text-decoration: underline;
+}
